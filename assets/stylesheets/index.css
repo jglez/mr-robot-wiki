@@ -1,0 +1,27 @@
+h1 {
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  color: black;
+  line-height: 1.4;
+}
+
+.about {
+  margin-top: 20px;
+}
