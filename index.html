@@ -4,17 +4,19 @@
 <head>
   <meta charset='UTF-8'>
   <title>Mr. Robot Wiki</title>
+  <link rel='icon' type='image/png' href='./assets/images/mr_robot_favicon.png'>
 
   <!-- CSS Reset -->
   <link rel='stylesheet' href='assets/stylesheets/reset.css'>
 
   <!-- Main styles -->
-  <link rel='stylesheet' href='assets/stylesheets/index.css'>
+  <link rel='stylesheet' href='assets/stylesheets/main.css'>
   <!-- Font for body -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+  <!-- Main font -->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,16 +24,25 @@
     <header>
       <h1 class='text'>Mr. Robot Wiki</h1>
       <nav>
-        <a class='text' href='index.html'>Home</a>
-        <a class='text' href='episodes.html'>Episodes</a>
-        <a class='text' href='characters.html'>Characters</a>
-        <a class='text' href='factions.html'>Factions</a>
-        <a class='text' href='quotes.html'>Best Quotes</a>
+        <a href='index.html'>Home</a>
+        <a href='episodes.html'>Episodes</a>
+        <a href='characters.html'>Characters</a>
+        <a href='factions.html'>Factions</a>
+        <a href='quotes.html'>Best Quotes</a>
       </nav>
     </header>
 
-    <section class='about'>
-      <h2 class='text'>About the show</h2>
+    <section id='about'>
+      <h2 class='heading'>About the show</h2>
+
+      <video src='assets/videos/season_one_trailer.mp4' width='560' height='315' controls>Your browser does not support
+        the video
+        element.</video>
+
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/U94litUpZuc" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe> -->
+
       <p class='text'>Mr. Robot follows Elliot Alderson, a young cybersecurity engineer living in New York City, where
         he works at
         the cybersecurity agency Allsafe. Elliot constantly struggles with social anxiety, clinical depression, and
@@ -43,6 +54,23 @@
         Their biggest mission is to cancel all consumer debt by encrypting the data of one of the largest corporations
         in the world, E Corp, which Elliot perceives as Evil Corp.</p>
     </section>
+
+    <section id='synopsis'>
+      <h2 class='heading'>Synopsis</h2>
+      <p><br>Synopsis text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur illo alias error,
+        repellendus
+        dolorem expedita quas, dolorum enim reprehenderit rerum molestiae odit incidunt in eaque dignissimos hic sunt
+        corrupti vitae.</p>
+      <figure>
+        <img id='fsociety_planning' src='./assets/images/fsociety_planning.png'
+          alt='The fsociety group hunch over schematics to plan a hack'>
+        <figcaption>The fsociety team plan a hack</figcaption>
+      </figure>
+    </section>
+
+    <footer>
+      <a class='text' href='#about'>Back to top</a>
+    </footer>
   </div>
 </body>
 

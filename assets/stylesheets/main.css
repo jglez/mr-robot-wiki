@@ -1,0 +1,40 @@
+.container {
+}
+
+.heading {
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.4;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+#fsociety_planning {
+  border: 1px solid red;
+}
+
+img {
+  width: 25%;
+}
